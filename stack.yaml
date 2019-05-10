@@ -1,0 +1,8 @@
+resolver: lts-13.5
+
+packages:
+- bad-monaderror
+
+extra-deps:
+- git: https://bitbucket.org/mwotton/postgresql-query
+  commit: 6d9e0e24a72e22c1a98750f0c29383c0fa83a751
